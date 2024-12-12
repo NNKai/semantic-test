@@ -1,0 +1,92 @@
+{
+"resturaunts" : [
+    {
+        "id": 1,
+        "title": "Resturaunt #1",
+        "rating": 9.2,
+        "image": "https://www.goodfreephotos.com/albums/thailand/bangkok/restaurant-in-bangkok-thailand.jpg",
+        "menu" : {
+            "non-veg" : 
+            [ 
+                {
+                    "name" : "Butter Chicken", 
+                    "price" : "$16.99",
+                    "img" : ""
+                },
+                {
+                    "name" : "Karahi Chicken", 
+                    "price" : "$16.99",
+                    "img" : ""
+                },
+                {
+                    "name" : "Cream Chicken", 
+                    "price" : "$16.99",
+                    "img" : ""
+                }
+            ],
+            "veg" : 
+            [
+                {
+                    "name" : "Butter Paneer", 
+                    "price" : "$16.99",
+                    "img" : ""
+                },
+                {
+                    "name" : "Karahi Paneer", 
+                    "price" : "$16.99",
+                    "img" : ""
+                },
+                {
+                    "name" : "Malai Paneer",
+                    "price" : "$16.99",
+                    "img" : ""
+                }
+            ]
+        }
+      },
+      {
+        "id": 2,
+        "title": "Resturaunt #2",
+        "rating": 9.2,
+        "image": "https://i0.wp.com/www.designlike.com/wp-content/uploads/2018/03/restaurant-1948732_1920.jpg",
+        "menu" : {
+            "non-veg" : 
+            [ 
+                {
+                    "name" : "Butter Chicken", 
+                    "price" : "$16.99",
+                    "img" : ""
+                },
+                {
+                    "name" : "Karahi Chicken", 
+                    "price" : "$16.99",
+                    "img" : ""
+                },
+                {
+                    "name" : "Cream Chicken", 
+                    "price" : "$16.99",
+                    "img" : ""
+                }
+            ],
+            "veg" : 
+            [
+                {
+                    "name" : "Butter Paneer", 
+                    "price" : "$16.99",
+                    "img" : ""
+                },
+                {
+                    "name" : "Karahi Paneer", 
+                    "price" : "$16.99",
+                    "img" : ""
+                },
+                {
+                    "name" : "Malai Paneer",
+                    "price" : "$16.99",
+                    "img" : ""
+                }
+            ]
+        }
+      }
+    ]
+}

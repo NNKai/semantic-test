@@ -1,0 +1,43 @@
+
+.news_Section {
+    margin-top: 24px;
+    
+    .news_Card {
+        box-shadow: 0 0 8px;
+        margin: 24px;
+        padding: 12px;
+        border-radius: 10px;
+        background-color: yellowgreen;
+        min-height: 300px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        h4{
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            height: 40px;
+            font-size: 16px;
+            margin-block-start: 0;
+            margin-block-end: 0;
+        }
+        img{
+            width: 100%;
+            min-width: 150px;
+            height: 200px;
+            object-fit: cover;
+            box-shadow: 0 0 2px blue;
+            border-radius: 10px;
+        }
+        p{
+            color: rgb(49, 49, 49);
+            font-weight: 600;
+        }
+    
+        a{
+            color: red;
+            font-weight: 700;
+            font-size: 16px;
+        }
+    }
+}

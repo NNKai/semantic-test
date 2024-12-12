@@ -1,0 +1,87 @@
+.middle-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .middle-album {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 16px 12px;
+    align-items: center;
+    height: 300px;
+    padding: 12px;
+    background-color: #DBAD6A;
+    border-radius: 10px;
+    box-shadow: 0 0 8px;
+    justify-content: space-between;
+    filter: contrast(1);
+    .album-title {
+        box-shadow: 0 0 6px black;
+        margin: 12px;
+        width: 280px;
+        min-height: 24px;
+        font-size: 16px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 6px 12px;
+        // display: flex;
+        // justify-content: flex-start;
+        align-items: center;
+        border-radius: 10px;
+        background-color: #CF995F;
+        font-weight: 700;
+      }
+    span {
+        h3{
+            backdrop-filter: blur(6px);
+            padding: 12px;
+            color: white;
+            border-radius: 20px;
+        }
+        a {
+            text-decoration: none;
+            h4{
+            backdrop-filter: blur(6px);
+            padding: 12px;
+            color: white;
+            border-radius: 20px;
+            }
+            :hover {
+                background-color: midnightblue;
+            }
+        }
+    }
+  }
+  
+  
+  
+  .album-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .loading-indicator {
+    text-align: center;
+    margin: 16px;
+    font-size: 16px;
+    color: #888;
+  }
+  
+  .load-more-container {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .show-load-more {
+    max-height: 2000px; /* Adjust this value based on your content */
+  }
+  

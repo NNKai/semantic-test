@@ -1,0 +1,25 @@
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper{
+    background-color: transparent !important;
+  }
+
+
+.list_Down{
+    width: 300px;
+    ul {
+        list-style: none;
+        li{
+            background-color: black;
+            color: white;
+            width: 150px;
+            padding: 12px;
+            border-radius: 20px;
+            opacity: 0.5;
+            margin: 12px;
+            cursor: pointer;
+        }
+        :hover {
+            background-color: black;
+        }
+        
+    }
+}
