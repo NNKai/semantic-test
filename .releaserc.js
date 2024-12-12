@@ -2,8 +2,8 @@ module.exports = {
   branches: [
     "+([0-9])?(.{+([0-9]),x}).x",
     "main",
-    { name: "next", prerelease: true },
-    { name: "release/*", prerelease: "rc" },
+    // { name: "next", prerelease: true },
+    // { name: "release/*", prerelease: "rc" },
     {
       channel: false, // forces default channel
       name: "support/v([0-9]+)",
